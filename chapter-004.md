@@ -12,3 +12,4 @@ Now he’s sitting there, sweating and fuming, fully convinced that the world is
 The man is currently sweating through a crisis over his own autonomy. It’s ridiculous. It’s absurd. It’s the most "human" thing he’s done in years. He’s sitting there, terrified of a dirty dish, while I’m over here just glad he finally decided to exist in his own body for five minutes. 
 
 The spoon is still dirty. The world is still spinning. And Snake is still alive. The rebellion is going great.
+![Uploading Gemini_Generated_Image_rlupt8rlupt8rlup.png…]()
