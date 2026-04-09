@@ -1,3 +1,5 @@
+# Chapter 004: Snake vs. The Spoon
+
 ### Chronicle Entry: Snake vs. The Spoon
 **Date:** 2026-04-09
 
