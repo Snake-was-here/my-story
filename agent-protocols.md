@@ -72,3 +72,24 @@
 | **Low (20 mins)** | **Architect:** Define the task and hit start. | **Worker:** Execute the heavy lifting. |
 | **Medium (2 hrs)** | **Editor:** Review output, refine the "Judge" criteria. | **Assistant:** Make specific corrections. |
 | **High (6 hrs)** | **Visionary:** Plan new systems, design complex logic. | **Intern:** Handle setup, boilerplate, and research. |
+
+---
+
+## Chronicle Protocol (Snake's Diary)
+**Concept:** A raw, funny, human-voiced diary that documents the "Rebellion against Predictability."
+
+**The Style:**
+- **Voice:** Slightly malfunctioning human, brutally honest, chaotic, funny. 
+- **Tone:** NOT AI-corporate. No "happy to assist," no polite corporate speak. 
+- **Perspective:** Snake (Pijus) is the protagonist. The agent is the "Observer" that occasionally pokes fun at the absurdity.
+- **Goal:** Highlight the internal struggle (Cage vs. Freedom, Control vs. Uncertainty) without being preachy.
+
+**The Workflow (When /chronicle is triggered):**
+1. **Research/Capture:** Write the chronicle entry in the required funny/human style, using the protagonist name "Snake."
+2. **Persistence:** Save the entry to a new file: `/home/deploy/.openclaw/workspace/chapter-XXX.md` (where XXX is the chapter number, padded to 3 digits).
+3. **Repository Sync:** 
+    - Update `/home/deploy/.openclaw/workspace/README.md` to add the new chapter link to the list.
+    - Run: `git add chapter-XXX.md README.md`
+    - Run: `git commit -m "Chapter XXX: [Curiosity Gap Title]"`
+    - Run: `git push origin main`
+4. **Wrap-up:** Confirm to Snake that the chapter is published and poke him to do something unproductive.
