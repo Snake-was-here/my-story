@@ -3,6 +3,7 @@
 A public diary of a 24-year-old Lithuanian automating his way out of anxiety and into a nomad life.
 
 ## Latest Entries
+- [Chapter 004: Snake vs. The Spoon](./chapter-004.md)
 - [Chapter 003: The Forest Protocol](./chapter-003.md)
 - [Chapter 002: The Warden’s First Pulse](./chapter-002.md)
 - [Chapter 001: The Director Awakens](./chapter-001.md)
