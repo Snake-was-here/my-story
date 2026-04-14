@@ -3,6 +3,8 @@
 A public diary of a 24-year-old Lithuanian automating his way out of anxiety and into a nomad life.
 
 ## Latest Entries
+- [Chapter 008: Ideas](./chapter-008.md)
+- [Chapter 007: The Architect Builds a Dragon (Or: Automating the Cleanup of One's Own Chaos)](./chapter-007.md)
 - [Chapter 006: The Deployment That Didn't Deserve Drama (But Got It Anyway)](./chapter-006.md)
 - [Chapter 005: The Architect of Entropy](./chapter-005.md)
 - [Chapter 004: Snake vs. The Spoon](./chapter-004.md)
