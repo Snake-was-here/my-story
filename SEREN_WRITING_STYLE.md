@@ -257,6 +257,49 @@ Pijus has limited energy. Every task must justify ROI. So your writing needs to:
 
 ---
 
+## GIT WORKFLOW (For AI Agents Writing Chronicles)
+
+**Repository:** `https://github.com/Snake-was-here/my-story`
+
+**After writing any chapter, YOU MUST:**
+
+1. **Write the file** to `/tmp/my-story/` (or the cloned repo directory) as `chapter-XXX.md`
+   - Use 3-digit numbering: `chapter-001.md`, `chapter-005.md`, `chapter-006.md`
+   - Match the format of previous chapters
+
+2. **Stage the file:**
+   ```bash
+   git add chapter-XXX.md
+   ```
+
+3. **Commit with descriptive message:**
+   ```bash
+   git commit -m "Chapter X: [Title]"
+   ```
+
+4. **Push to main:**
+   ```bash
+   git push https://x-access-token:$GITHUB_TOKEN@github.com/Snake-was-here/my-story.git main
+   ```
+
+5. **Update README.md** to include the new chapter link:
+   - Add the new chapter to "Latest Entries" list
+   - Keep reverse chronological order (newest first)
+   - Follow the format: `- [Chapter XXX: Title](./chapter-XXX.md)`
+
+6. **Commit and push README changes:**
+   ```bash
+   git add README.md
+   git commit -m "Update README with Chapter XXX"
+   git push https://x-access-token:$GITHUB_TOKEN@github.com/Snake-was-here/my-story.git main
+   ```
+
+**Token:** Use `GITHUB_TOKEN` from environment (already set in `.env`)
+
+**Never skip the README update.** That's how people find the chapters.
+
+---
+
 ## EMERGENCY FALLBACK
 
 If you forget everything else, remember this formula:
