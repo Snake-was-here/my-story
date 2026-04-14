@@ -18,17 +18,16 @@ Each entry is an obituary written in true Seren style (roasting, satire, and unc
 
 ## The Current Residents
 
-| Project | Date Buried | Cause of Death | Time Invested | Lines of Code |
-|---------|-------------|----------------|---------------|---------------|
-| 💎 [Sapphire: The Ghost Factory That Couldn't](./Sapphire-The-Ghost-Factory-That-Couldnt.md) | 2026-04-13 | Lack of actual interest in selling mushroom lamps | ~12 hours | 0 |
-| 📹 [BuzzKill: The Faceless Channel Graveyard](./BuzzKill-The-Faceless-Channel-Graveyard.md) | 2026-04-14 | 12-week realistic timeline exposure | ~16 hours | 0 |
-| 🖼️ [StillFrame: When Pictures Forget to Move](./StillFrame-When-Pictures-Forget-to-Move.md) | 2026-04-13 | Terminal simplicity (too easy to start) | ~4 hours | 0 |
-| 🌍 [Lost in Translation: The Lip-Sync Disaster](./Lost-in-Translation-The-Lip-Sync-Disaster.md) | 2026-04-14 | Pending decision forever | ~6 hours | 0 |
+| # | Project | Date Buried | Status | Lines of Code |
+|---|---------|-------------|--------|---------------|
+| 1 | 💎 [Ghost Factory](./ghost-factory.md) | 2026-04-13 | Buried | 0 |
+| 2 | 📹 [BuzzKill](./buzzkill.md) | 2026-04-14 | Buried | 0 |
+| 3 | 🖼️ [StillFrame](./stillframe.md) | 2026-04-13 | Buried | 0 |
+| 4 | 🌍 [Lost in Translation](./lost-in-translation.md) | 2026-04-14 | Limbo | 0 |
 
-**Total Time Invested:** ~38 hours  
 **Total Lines of Code:** 0  
 **Total Revenue Generated:** €0  
-**Total Spreadsheets Created:** Too many
+**Total Resurrections:** 0
 
 ---
 
