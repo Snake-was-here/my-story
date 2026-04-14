@@ -24,6 +24,8 @@ Each entry is an obituary written in true Seren style (roasting, satire, and unc
 | 2 | 📹 [BuzzKill](./buzzkill.md) | 2026-04-14 | Buried | 0 |
 | 3 | 🖼️ [StillFrame](./stillframe.md) | 2026-04-13 | Buried | 0 |
 | 4 | 🌍 [Lost in Translation](./lost-in-translation.md) | 2026-04-14 | Limbo | 0 |
+| 5 | 📻 [CoolProject42](./coolproject42.md) | 2026-04-14 | Fresh Meat | 0 |
+| 6 | 🎙️ [Infinite.fm](./infinite-fm.md) | 2026-04-14 | Fresh Meat | 0 |
 
 **Total Lines of Code:** 0  
 **Total Revenue Generated:** €0  
