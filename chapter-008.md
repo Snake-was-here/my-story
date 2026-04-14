@@ -109,6 +109,8 @@ Both fully spec'd. Technical architectures. Monetization strategies. Competitive
 | User interviews | 0 |
 | Problems actually solved | Debatably 0 |
 | Time between generation and burial | 11 minutes |
+| Cost to generate ideas | €11.13 (AI tokens) |
+| Revenue generated | €0 |
 
 ---
 
@@ -203,6 +205,6 @@ CoolProject42 had a 5G multicast strategy. Infinite.fm had real-time latency cal
 The dragon is satisfied tonight. It ate well. But the dragon will be hungry again.
 
 **Current Status:**
-| Balance | Ideas | Shipped | Purgatory Residents | Containment |
-|---------|-------|---------|---------------------|-------------|
-| ~€190 | 6+ |
+| Balance | Available | Ideas | Shipped | Purgatory Residents | Containment |
+|---------|-----------|-------|---------|---------------------|-------------|
+| €1,212.63 | €412.63 (€800 sacred) | 6+ |
