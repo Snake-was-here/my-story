@@ -26,6 +26,7 @@ Each entry is an obituary written in true Seren style (roasting, satire, and unc
 | 4 | 🌍 [Lost in Translation](./lost-in-translation.md) | 2026-04-14 | Limbo | 0 |
 | 5 | 📻 [CoolProject42](./coolproject42.md) | 2026-04-14 | Fresh Meat | 0 |
 | 6 | 🎙️ [Infinite.fm](./infinite-fm.md) | 2026-04-14 | Fresh Meat | 0 |
+| 7 | 🔌 [AI-on-a-Stick](./ai-on-a-stick.md) | 2026-04-18 | Fresh Meat | 0 |
 
 **Total Lines of Code:** 0  
 **Total Revenue Generated:** €0  
