@@ -176,6 +176,7 @@ That, he can do.
 > *"The best marketing doesn't look like marketing. It looks like a person who actually uses the product, talking to another person who might need it. Ember became that person. She just happens to be made of cron jobs and determination."*
 
 🔥
+<img width="994" height="517" alt="there_she_goes" src="https://github.com/user-attachments/assets/5a0adab3-0885-445f-8c22-6f8c304a00fa" />
 
 ---
 
