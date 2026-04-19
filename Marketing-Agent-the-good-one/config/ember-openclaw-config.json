@@ -1,0 +1,58 @@
+{
+  "agent_config": {
+    "id": "ember",
+    "name": "Ember",
+    "workspace": "~/.openclaw/workspace",
+    "agentDir": "~/.openclaw/workspace/agents/ember",
+    "model": {
+      "primary": "openrouter/anthropic/claude-opus-4.7",
+      "fallbacks": [
+        "openrouter/moonshotai/kimi-k2.5",
+        "openrouter/gemini-3.1-flash-lite-preview"
+      ]
+    },
+    "skills": [
+      "marketing-mode"
+    ],
+    "memorySearch": {
+      "extraPaths": [
+        "AGENTS.md",
+        "FINANCES.md",
+        "HEARTBEAT.md",
+        "IDENTITY.md",
+        "PLANNING.md",
+        "RISKS.md",
+        "TASKS.md",
+        "TOOLS.md",
+        "USER.md",
+        "agents/ember/SOUL.md"
+      ]
+    },
+    "subagents": {
+      "allowAgents": []
+    }
+  },
+  "telegram_channel": {
+    "dmPolicy": "allowlist",
+    "botToken": "<REDACTED_TELEGRAM_BOT_TOKEN>",
+    "allowFrom": [
+      "<PIJUS_TELEGRAM_ID>"
+    ],
+    "groupAllowFrom": [
+      "<PIJUS_TELEGRAM_ID>"
+    ],
+    "groupPolicy": "allowlist",
+    "streaming": {
+      "mode": "partial"
+    }
+  },
+  "bindings": [
+    {
+      "agentId": "ember",
+      "match": {
+        "channel": "telegram",
+        "accountId": "ember"
+      }
+    }
+  ]
+}

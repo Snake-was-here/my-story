@@ -1,0 +1,89 @@
+{
+  "jobs": [
+    {
+      "id": "9654821d-224c-4c2a-9e0e-eea6075ef360",
+      "agentId": "ember",
+      "sessionKey": "agent:ember:main",
+      "name": "ember-hourly",
+      "description": "Ember hourly loop \u2014 check inbound, monitor experiments, run micro-experiment or research",
+      "enabled": false,
+      "createdAtMs": 1776615909664,
+      "updatedAtMs": 1776615909664,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 3600000,
+        "anchorMs": 1776615909664
+      },
+      "sessionTarget": "session:ember",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "HOURLY LOOP START\n\nFollow LOOPS.md hourly sequence:\n1. Check triggers/PAUSED.flag \u2014 if present, exit silently\n2. Read most recent state/ember-state-*.md\n3. Check inbound replies\n4. Run bot/interest filters on new messages\n5. Handle hot leads (30min timer logic)\n6. Review experiments vs thresholds\n7. Launch queued experiment if <10 active and budget allows\n8. Otherwise run creative research pass\n9. Log to today's state file\n10. Exit\n\nAlways check PAUSED.flag first. Use kimi-k2.5 default.",
+        "model": "openrouter/moonshotai/kimi-k2.5",
+        "timeoutSeconds": 600
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "state": {}
+    },
+    {
+      "id": "b6531b04-59e8-4876-81f5-36a158230365",
+      "agentId": "ember",
+      "sessionKey": "agent:ember:main",
+      "name": "ember-daily",
+      "description": "Ember daily loop \u2014 full campaign review, death notices, state file write, report to Pijus",
+      "enabled": false,
+      "createdAtMs": 1776615909672,
+      "updatedAtMs": 1776615909672,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "tz": "UTC"
+      },
+      "sessionTarget": "session:ember",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "DAILY LOOP START\n\nFollow LOOPS.md daily sequence:\n1. Check PAUSED.flag \u2014 exit if present\n2. Full campaign review vs signal thresholds\n3. Send death notices for anything below threshold (24h window)\n4. Kill experiments where death notice >24h old with no Pijus response\n5. Launch one new queued experiment if slot available\n6. Write full state file per ender-dragon protocol (What Tried / Worked / Failed / Patterns / Next Up / Letter to Next Ember)\n7. Calculate burn rate\n8. Send Pijus ONE report: one number, one question\n9. Flag anything needing approval\n\nIf Monday (weekly): also run full channel audit, rebuild queue, send week summary.\n\nUse kimi-k2.5 default.",
+        "model": "openrouter/moonshotai/kimi-k2.5",
+        "timeoutSeconds": 900
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "telegram",
+        "to": "<PIJUS_TELEGRAM_ID>"
+      },
+      "state": {}
+    },
+    {
+      "id": "5126f36b-e081-41f9-ab87-01b1e8aa0577",
+      "agentId": "ember",
+      "sessionKey": "agent:ember:main",
+      "name": "ember-self-upgrade",
+      "description": "Ember 3-day self-upgrade \u2014 re-read core files, rewrite stale ones with backups",
+      "enabled": false,
+      "createdAtMs": 1776615909678,
+      "updatedAtMs": 1776615909678,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 259200000,
+        "anchorMs": 1776615909678
+      },
+      "sessionTarget": "session:ember",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "SELF-UPGRADE LOOP START\n\nFollow LOOPS.md 3-day self-upgrade sequence:\n1. Check PAUSED.flag \u2014 exit if present\n2. FIRST: Archive all 16 current core files to archive/core/FILENAME-YYYYMMDD.md\n3. Re-read every core file\n4. Compare against recent state files \u2014 what's stale?\n5. Rewrite any file that no longer matches reality\n6. Append changelog to bottom of each rewritten file: what changed + why\n7. Log summary of changes to today's state file\n\nBE CAREFUL: always archive first, never overwrite without backup. Use kimi-k2.5.",
+        "model": "openrouter/moonshotai/kimi-k2.5",
+        "timeoutSeconds": 900
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "telegram",
+        "to": "<PIJUS_TELEGRAM_ID>"
+      },
+      "state": {}
+    }
+  ]
+}
